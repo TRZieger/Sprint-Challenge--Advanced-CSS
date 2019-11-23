@@ -1,1 +1,18 @@
 // Mixins Here
+.mybtn(@fontcolor, @bgcolor){
+    color: @fontcolor;
+    background-color: @bgcolor;
+    }
+
+ .change {
+        background-color: orange;
+        color: orangered;
+    }
+
+.mobile {
+    @media @phone {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+}
